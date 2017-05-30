@@ -27,10 +27,10 @@
 1. [Documentation](http://sass-lang.com/guide)
 2. [Installation](http://sass-lang.com/install)
 3. [Another Documentation Source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
-4. [tutorial by CSSTricks](https://css-tricks.com/video-screencasts/88-intro-to-compass-sass/)
+4. [Tutorial by CSSTricks](https://css-tricks.com/video-screencasts/88-intro-to-compass-sass/)
 
 ## Compass 
 
 1. [Installation](http://compass-style.org/install/)
 2. [Documentation](http://compass-style.org/)
-3. [tutorial by CSSTricks](https://css-tricks.com/video-screencasts/88-intro-to-compass-sass/)
+3. [Tutorial by CSSTricks](https://css-tricks.com/video-screencasts/88-intro-to-compass-sass/)
