@@ -5,22 +5,18 @@
 ## HTML
 
 1. The official documentation: [w3c](http://www.w3schools.com/html/)
-2. 
 
 ## CSS Components
 
 1. [Building a photo gallery](https://css-tricks.com/video-screencasts/64-building-a-photo-gallery/)
-2. 
 
 ## JavaScript
 
 1. 
-2. 
 
 ## jQuery
 
 1. jQuery [effects](http://jqueryui.com/effect/)
-2. 
 
 ## SASS
 
@@ -62,11 +58,9 @@
 
 ## Domain purchase
 1. [GoDaddy](https://www.godaddy.com/?isc=goflin14)
-2. 
 
 ## Filler text
 1. [Lorem Ipsum Text](https://www.webpagefx.com/web-design/html-ipsum/)
-2. 
 
 ## Image Libraries
 1. [Graphic Stock](https://www.graphicstock.com/)
@@ -96,9 +90,8 @@
 1. [Jupiter5](http://demos.artbees.net/jupiter5/team/carl-paxton/)
 2. [Roy Babber](https://roybarber.com/)
 3. [SalleeDesign](http://salleedesign.com/home/)
-4. 
 
-###Package Managers
+### Package Managers
 
 What are flat and nested dependencies?
 
