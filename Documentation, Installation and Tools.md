@@ -7,9 +7,9 @@
 1. The official documentation: [w3c](http://www.w3schools.com/html/)
 2. 
 
-## CSS
+## CSS Components
 
-1. 
+1. [Building a photo gallery](https://css-tricks.com/video-screencasts/64-building-a-photo-gallery/)
 2. 
 
 ## JavaScript
@@ -43,6 +43,7 @@
 1.3. [Emmet Documentation](https://emmet.io/)
 1.4. [Emmet Tutorial by CSS Screencasts](https://www.youtube.com/watch?v=0uIPGgq9R5Y)
 1.5. [18 Plugins to get most out of sublime](http://www.hongkiat.com/blog/sublime-text-plugins/)
+1.6. [Package control for Sublime Text](https://packagecontrol.io/)
 2. [Atom](https://atom.io/)
 3. [Coda2](https://panic.com/coda/)
 4. [Textmate](http://macromates.com/)
@@ -89,8 +90,31 @@
 2. [Susy](http://susy.oddbird.net/)
 3. [Toast](http://daneden.github.io/Toast//)
 
+## Freelancer
 
+### Awesome personal websites
+1. [Jupiter5](http://demos.artbees.net/jupiter5/team/carl-paxton/)
+2. [Roy Babber](https://roybarber.com/)
+3. [SalleeDesign](http://salleedesign.com/home/)
+4. 
 
+###Package Managers
+
+What are flat and nested dependencies?
+
+[Click here to find out](https://maxogden.com/nested-dependencies.html)
+
+1. [npm](https://www.npmjs.com/)
+2. For Ruby on Rails [Ruby Gems](https://rubygems.org/)
+3. [Mantri - Dependency System](http://mantrijs.com/)
+4. [volo](http://volojs.org/)
+5. [Ender](http://enderjs.com/)
+6. Python packages [pip](https://github.com/pypa/pip)
+7. PHP [Composer](https://getcomposer.org/)
+8. [Bower](https://bower.io/)
+8.1 [How is bower useful?](https://benmccormick.org/2015/01/22/is-bower-useful/)
+8.2 [Installation](https://bower.io/#install-bower)
+9. Javascript [Require.Js](http://requirejs.org/)
 
 
 
