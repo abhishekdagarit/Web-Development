@@ -24,11 +24,11 @@
 
 ## SASS
 
-1). [Documentation](http://sass-lang.com/guide)
-2). [Installation](http://sass-lang.com/install)
-3). [Another Documentation Source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+1. [Documentation](http://sass-lang.com/guide)
+2. [Installation](http://sass-lang.com/install)
+3. [Another Documentation Source](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 
 ## Compass 
 
-1). [Installation](http://compass-style.org/install/)
-2). [Documentation](http://compass-style.org/)
+1. [Installation](http://compass-style.org/install/)
+2. [Documentation](http://compass-style.org/)
