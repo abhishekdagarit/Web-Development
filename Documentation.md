@@ -42,6 +42,7 @@
 1.2. [Emmet for Sublime Text](https://github.com/sergeche/emmet-sublime#readme)
 1.3. [Emmet Documentation](https://emmet.io/)
 1.4. [Emmet Tutorial by CSS Screencasts](https://www.youtube.com/watch?v=0uIPGgq9R5Y)
+1.5. [18 Plugins to get most out of sublime](http://www.hongkiat.com/blog/sublime-text-plugins/)
 2. [Atom](https://atom.io/)
 3. [Coda2](https://panic.com/coda/)
 4. [Textmate](http://macromates.com/)
