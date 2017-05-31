@@ -1,6 +1,6 @@
 # [CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
 
-![apples](apples.jpg)
+![apples](Apples.jpg)
 
 by *Noah Stokes* 
 
