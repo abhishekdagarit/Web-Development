@@ -8,13 +8,16 @@ CSS positioning is often misunderstood. Sometimes, in a bug-fixing fury, we appl
 
 The CSS specification offers us five `position` properties: static, relative, absolute, fixed, and inherit. Each property serves a specific purpose. Understanding that purpose is the key to mastering CSS-based layouts.
 
-GET WITH THE FLOW
+## GET WITH THE FLOW
+
 First, let’s take a step back to recognize the world we’re working in. Much like our real world, in CSS, we work within boundaries. In CSS, this boundary is called the normal flow. According to the CSS 2.1 spec:
 
 Boxes in the normal flow belong to a formatting context, which may be block or inline, but not both simultaneously. Block boxes participate in a block formatting context. Inline boxes participate in an inline formatting context.
 Think of a “box,” as described by the spec as a wooden block—not unlike the ones you played with as a young whippersnapper. Now, think of the normal flow as a law similar to the law of gravity. The normal flow of the document is how your elements stack one on top of each other, from the top down, in the order in which they appear in your markup. You may remember stacking alphabet blocks into giant towers: The normal flow is no different than those wooden blocks bound by the law of gravity. As a child, you had one block on top of another; in your markup, you have one element after another. What you couldn’t do as a child, however, was give those blocks properties that could defy the law of gravity. All of the sudden, CSS seems a lot cooler than those alphabet blocks.
 
-Static and relative—nothing new here
+## Static and relative—nothing new here
+---
+
 The static and relative `position` properties behave like your childhood blocks—they stack as you would expect. Note that static is the default `position` value of an element, should you fail to apply any other value. If you have three statically `positioned elements in your code, they will stack one on top of the next, as you might expect. Let’s take a look at an example with three elements, all with a `position` value of static:
 
 ```css
@@ -95,7 +98,9 @@ Creating a coordinate system for child elements is another one of the relative p
 
 Example D shows our new markup. Because of the new coordinate system, the blue block measures its offset 200 pixels from the left of the red block (#box_1) instead of the document. This practice is more common with elements set to `position: absolute`—the way you wish you could have built towers when you were younger.
 
-Absolute—anywhere, anytime
+
+### Absolute—anywhere, anytime
+
 If the relative value acts like Superman, then the absolute value mirrors Inception—a place where you design your own world. Unlike the static and relative values, an absolutely positioned element is removed from the normal flow. This means you can put it anywhere, and it won’t affect or be affected by any other element in the flow. Think of it as an element with a giant strip of velcro on its back. Just tell it where to stick and it sticks. Exactly like the relative value, absolutely positioned elements respond to offset properties for positioning. You can set an element to top: 100px and left: 200px; and that element will sit exactly 100px from the top and 200px from the left of the document. Let’s look at an example using four elements:
 
 ```css
@@ -210,7 +215,8 @@ In example H2, focus on the blue block (#box_2). Notice how I use only one offse
 }
 ```
 
-Fixed—always there
+### Fixed—always there
+
 An element with `position: fixed` shares all the rules of an absolutely positioned element, except that the viewport (browser/device window) positions the fixed element, as opposed to any parent element. Additionally, a fixed element does not scroll with the document. It stays, well…fixed. Let’s look at an example:
 
 ```css
@@ -224,10 +230,13 @@ An element with `position: fixed` shares all the rules of an absolutely position
 
 Example I shows a footer with some copyright text in it as a fixed element. As you scroll, notice that it doesn’t move. Notice that the left and right offset properties are set to zero. Since the fixed value behaves similar to the absolute value, we can stretch the width of the element to fit the viewport while fixing the element to the bottom using bottom: 0;. Use caution with the fixed value: Support in older browsers is spotty at best. For example, older versions of Internet Explorer render fixed elements as static elements. And, you now know that static elements don’t behave like fixed elements, right? If you do plan to use fixed elements in a layout, there are several solutions that can help make your element behave properly in browsers that don’t support the fixed value.
 
-Inherit—Something for nothing
+## Inherit—Something for nothing
+---
+
 As I mentioned at the beginning of this article, there are five values available to the `position` property. The fifth value is inherit. It works as the name implies: The element inherits the value of its parent element. Typically, `position` property elements do not naturally inherit their parent’s values—the static value is assigned if no `position` value is given. Ultimately, you can type inherit or the parent element’s value and get the same result.
 
-IN ACTION
+### IN ACTION
+
 All this talk and no action. Let’s take a look at a real-world example website that uses all the `position` values. Example J shows a typical website layout with a header, navigation, content, and footer. Let’s walk through each element, discuss its `position` property, and why we chose that property.
 
 Let’s start with our #container element. This is simply the containing element that I’m using to center our content within the viewport. The #nav element is the first element within our #container element. No `position` property is assigned to the #nav element, so by default, it’s set to static. This is fine: We don’t need to do anything to offset this element, or create any new coordinate systems with it. We will need to do that with #content on our next element, so for that element, we’ve applied a `position` property of relative.
@@ -238,6 +247,9 @@ Since the #callout element has an absolute value, it does not affect other eleme
 
 Now we have a nice, simple layout with navigation, some content, a callout area, and a footer using static, relative, absolute, and fixed elements. Since we’re using the fixed value in this layout, we should apply some techniques to make sure that older browsers still respect our design. [Note: There used to be a link to sample techniques, but that site has since been taken over by malware. Apologies. —Ed.]
 
-Conclusion
+---
+
+## Conclusion
+
 With the `position` property’s power, you can accomplish many a layout with confidence and success. Thankfully, 80% of the `position` property values have excellent support in both modern and older browsers. The fixed value is the one that you should watch out for. Understanding the core of these property values gives you a solid CSS-based layout foundation, limited only by your imagination. Hopefully, your days of guessing `position` values in a last-minute bug fix frenzy are now over.
 
