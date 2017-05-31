@@ -1,9 +1,7 @@
 # HAML
 
-![haml](/assets/Haml.jpg)
-
-![apples](assets/Apples.jpg)
+![haml](haml.jpg)
 
 [Documentation](http://haml.info/)
 
-![hamltutorial](/assets/Hamltutorial.jpg)
+![hamltutorial](hamltutorial.jpg)
