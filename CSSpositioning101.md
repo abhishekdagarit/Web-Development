@@ -1,5 +1,7 @@
 # [CSS Positioning 101](https://alistapart.com/article/css-positioning-101)
 
+![apples][apples]
+
 by *Noah Stokes* 
 
 If you’re a front end developer or a designer who likes to code, CSS-based layouts are at the very core of your work. In what might be a refresher for some, or even an “a-ha!” for others, let’s look at the CSS `position` property to see how we can use it to create standards-compliant, table-free CSS layouts.
